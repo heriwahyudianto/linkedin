@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { useDispatch, useSelector } from 'react-redux'
+import {add, decrease, fromBackend, fetchLeads} from './profileSlice'
+
 function App() {
   return (
     <div className="App">
